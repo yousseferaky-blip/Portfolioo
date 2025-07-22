@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Portfolio</title>
+    
+    <meta name="description" content="موقع بورتفوليو احترافي لعرض الأعمال والمشاريع الخاصة بي في تصميم وتطوير الويب.">
+    <meta name="keywords" content="بورتفوليو, مطور ويب, تصميم مواقع, مشاريع, HTML, CSS, React , Tailwind, Bootstrap, Frontend , JavaScript, Portfolio">
+    <meta name="author" content="Youssef Eraky">
+
+    <title> Youssef Eraky | Portfolio</title>
 </head>
 <body>
     
@@ -22,11 +27,11 @@
                 <i class="fa-solid fa-sun sun"></i>
             </div>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a aria-label="Home Page" href="#home">Home</a></li>
+                    <li><a aria-label="Home Page" href="#about">About</a></li>
+                    <li><a aria-label="Services Page" href="#services">Services</a></li>
+                    <li><a aria-label="Portfolio Page" href="#Portfolio">Portfolio</a></li>
+                    <li><a aria-label="Contact Page" href="#contact">Contact</a></li>
                 </ul>
                 <i class="fas fa-bars"></i>
         </div>
@@ -42,7 +47,7 @@
             <span class="dev"></span>
         </h1>
         <div class="home-btn">
-            <a href="#contact">Contact Us</a>
+            <a aria-label="Contact Me" href="#contact">Contact Us</a>
         </div>
     </section>
 
@@ -55,7 +60,7 @@
         </div>
         <div class="About-Content">
             <div  class="About-Left">
-                <img src="./img/cover.jpg"/>
+                <img src="./img/cover.jpg" loading="lazy" alt="About Me"/>
             </div>
             <div  class="About-Right">
                 <h3>Hi Guys!</h3>
@@ -64,21 +69,20 @@
                     <div>
                         <i class="fa-solid fa-calendar-days"></i>
                         <span>Birthday </span>
-                        <a href="#contact">:7/7/2000</a>
+                        <a aria-label="My Date" href="#contact">:7/7/2000</a>
                     </div>
                     <div>
                         <i class="fa-solid fa-phone-volume"></i>
                         <span>Phone</span>
-                        <a href="#contact">:01023982624</a>
+                        <a aria-label="Phone Number" href="#contact">:01023982624</a>
                     </div>
                     <div >
                         <i class="fa-solid fa-envelope"></i>
                         <span>Email </span>
-                        <a href="mailto:yeraky07@gmail.com">:Click Here</a>
+                        <a aria-label="Send Email" href="mailto:yeraky07@gmail.com">:Click Here</a>
                     </div>
                 </div>
-                <!-- <a href=".//cv.pdf" download  class="download">download cv</a> -->
-                <a href="Files/Youssef_Eraky_CV.pdf"  class="download">download cv</a>
+                <a aria-label="My CV" href="Files/Youssef Ahmed Mohamed CV.pdf"  class="download">download cv</a>
                 </div>
         </div>
     </section> 
@@ -132,151 +136,158 @@
         </div>
         <div class="work-Container">
             <div >
-                <img src="./img/blogapp.png"/>
-                <a href="https://blogapp-theta-nine.vercel.app/" target="_blank">
+                <img loading="lazy" alt="Full CRM System Development" src="./img/CRM.png"/>
+                <a aria-label="Full CRM System Development" href="https://crm-frontend-three-theta.vercel.app/" target="_blank">
+                <i class="fa-solid fa-eye"></i>
+                </a>
+                <span>Full CRM System Development</span>
+            </div>
+            <div >
+                <img loading="lazy" alt="Blog-App" src="./img/blogapp.png"/>
+                <a aria-label="BlogApp Link" href="https://blogapp-theta-nine.vercel.app/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Full-Stack Blogging Platform  </span>
             </div>
             <div >
-                <img src="./img/github.png"/>
-                <a href="https://github-clone-pdcg.vercel.app/" target="_blank">
+                <img loading="lazy" alt="Github-Clone" src="./img/github.png"/>
+                <a aria-label="Github-Clone Link" href="https://github-clone-pdcg.vercel.app/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Github-Clone</span>
             </div>
             <div >
-                <img src="./img/Youtube.png"/>
-                <a href="https://youtube-clone-8j9n.vercel.app/" target="_blank">
+                <img loading="lazy" alt="Youtube-Clone" src="./img/Youtube.png"/>
+                <a aria-label="Youtube-Clone Link" href="https://youtube-clone-8j9n.vercel.app/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Youtube-Clone</span>
             </div>
             <div >
-                <img src="./img/Amazon.png"/>
-                <a href="https://fir-61aea.web.app/" target="_blank">
+                <img loading="lazy" alt="Amazon-Clone" src="./img/Amazon.png"/>
+                <a aria-label="Amazon-Clone Link" href="https://fir-61aea.web.app/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Amazon-Clone</span>
             </div>
             <div >
-                <img src="./img/courses.png"/>
-                <a href="https://yousseferaky-blip.github.io/Coursees/" target="_blank">
+                <img loading="lazy" alt="Courses-Platform" src="./img/courses.png"/>
+                <a aria-label="Courses-Platform Link" href="https://yousseferaky-blip.github.io/Coursees/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Courses-Platform</span>
             </div>
             <div >
-                <img src="./img/quran.png"/>
-                <a href="https://quran-be88d.web.app/" target="_blank">
+                <img loading="lazy" alt="Quran-App" src="./img/quran.png"/>
+                <a aria-label="Quran Link" href="https://quran-be88d.web.app/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Quran</span>
             </div>
             <div >
-                <img src="./img/E-commerce.png"/>
-                <a href="https://yousseferaky-blip.github.io/E-Commerce-M_W_K/" target="_blank">
+                <img loading="lazy" alt="E-commerce" src="./img/E-commerce.png"/>
+                <a aria-label="E-commerce Link" href="https://yousseferaky-blip.github.io/E-Commerce-M_W_K/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>E-commerce</span>
             </div>
             <div >
-                <img src="./img/API.png"/>
-                <a href="https://yousseferaky-blip.github.io/E-commerce_API/#/" target="_blank">
+                <img loading="lazy" alt="E-commerce" src="./img/API.png"/>
+                <a aria-label="E-commerce Link" href="https://yousseferaky-blip.github.io/E-commerce_API/#/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>E-commerce</span>
             </div>
             <div >
-                <img src="./img/evently.png"/>
-                <a href="https://yousseferaky-blip.github.io/Evently/" target="_blank">
+                <img loading="lazy" alt="Evently" src="./img/evently.png"/>
+                <a aria-label="Evently Link" href="https://yousseferaky-blip.github.io/Evently/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Evently</span>
             </div>
             <div >
-                <img src="./img/appvilla.png"/>
-                <a href="https://yousseferaky-blip.github.io/Appvilla/" target="_blank">
+                <img loading="lazy" alt="Appvilla" src="./img/appvilla.png"/>
+                <a aria-label="Appvilla Link" href="https://yousseferaky-blip.github.io/Appvilla/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Appvilla</span>
             </div>
             <div >
-                <img src="./img/tshirt.png"/>
-                <a href="https://tshirt-1b0d6.web.app/" target="_blank">
+                <img loading="lazy" alt="E-commerce" src="./img/tshirt.png"/>
+                <a aria-label="E-commerce T-shirt Link" href="https://tshirt-1b0d6.web.app/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>E-commerce T-shirt</span>
             </div>
             <div >
-                <img src="./img/fake.png"/>
-                <a href="https://fakestore-5da7b.web.app/" target="_blank">
+                <img loading="lazy" alt="E-commerce" src="./img/fake.png"/>
+                <a aria-label="Ecommerce FakeStore Link" href="https://fakestore-5da7b.web.app/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Ecommerce FakeStore</span>
             </div>
             <div>
-                <img src="./img/nft.png"/>
-                <a href="https://nft-12e69.web.app/" target="_blank">
+                <img loading="lazy" alt="NFT" src="./img/nft.png"/>
+                <a aria-label="NFT Link" href="https://nft-12e69.web.app/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>NFT</span>
             </div>
             <div >
-                <img src="./img/real.png"/>
-                <a href="https://yousseferaky-blip.github.io/Real-Estate/" target="_blank">
+                <img loading="lazy" alt="Real-Estate" src="./img/real.png"/>
+                <a aria-label="Real-Estate Link" href="https://yousseferaky-blip.github.io/Real-Estate/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Real-Estate</span>
             </div>
             <div >
-                <img src="./img/Animation.png"/>
-                <a href="https://yousseferaky-blip.github.io/WebsiteCompany/" target="_blank">
+                <img loading="lazy" alt="Animation" src="./img/Animation.png"/>
+                <a aria-label="Animation Link" href="https://yousseferaky-blip.github.io/WebsiteCompany/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Animation</span>
             </div>
             <div >
-                <img src="./img/quran.png"/>
-                <a href="https://yousseferaky-blip.github.io/Quran/#/" target="_blank">
+                <img loading="lazy" alt="Quran-App" src="./img/quran.png"/>
+                <a aria-label="Quran Link" href="https://yousseferaky-blip.github.io/Quran/#/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Quran</span>
             </div>
             <div>
-                <img src="./img/panel.png"/>
-                <a href="https://yousseferaky-blip.github.io/Panels/" target="_blank">
+                <img loading="lazy" alt="Panel-App" src="./img/panel.png"/>
+                <a aria-label="Panel Link" href="https://yousseferaky-blip.github.io/Panels/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Panel</span>
             </div>
             <div >
-                <img src="./img/randompassword.png"/>
-                <a href="https://yousseferaky-blip.github.io/Password-Random/" target="_blank">
+                <img loading="lazy" alt="Password-Random" src="./img/randompassword.png"/>
+                <a aria-label="Password-Random Link" href="https://yousseferaky-blip.github.io/Password-Random/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Password-Random</span>
             </div>
             <div >
-                <img src="./img/realtime.png"/>
-                <a href="https://yousseferaky-blip.github.io/Real-Time/ " target="_blank">
+                <img loading="lazy" alt="Real-Time" src="./img/realtime.png"/>
+                <a aria-label="Real-Time Link" href="https://yousseferaky-blip.github.io/Real-Time/ " target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Real-Time</span>
             </div>
             <div>
-                <img src="./img/multiplay.png"/>
-                <a href="https://yousseferaky-blip.github.io/Multiplay-Number/" target="_blank">
+                <img loading="lazy" alt="Multiplay-Number" src="./img/multiplay.png"/>
+                <a aria-label="Multiplay-Number Link" href="https://yousseferaky-blip.github.io/Multiplay-Number/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
                 <span>Multiplay-Number</span>
             </div>
             <div >
-                <img src="./img/change.png"/>
-                <a href="https://yousseferaky-blip.github.io/BackgroundChange/" target="_blank">
+                <img loading="lazy" alt="Background-Change" src="./img/change.png"/>
+                <a aria-label="Background-Change Link" href="https://yousseferaky-blip.github.io/BackgroundChange/" target="_blank">
                 <i class="fa-solid fa-eye"></i>
                 </a>
-                <span>BackgroundChange</span>
+                <span>Background-Change</span>
             </div>
         </div>
     </section>

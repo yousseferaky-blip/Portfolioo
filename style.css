@@ -577,7 +577,7 @@ section{
 }
 .work-Container div img{
     width: 100%;
-    height: 100%;
+    height: auto;
     position: relative; 
 }
 .work-Container div i{
