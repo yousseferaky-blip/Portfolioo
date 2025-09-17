@@ -40,7 +40,7 @@ darklight.addEventListener("click",()=>{
 // +++++++++++++
 
 let ClickUp = document.querySelector(".ClickUp")
-console.log(ClickUp);
+
 onscroll = () =>{
     if(scrollY >= 100){
         ClickUp.style.visibility = 'visible';

@@ -643,59 +643,21 @@ section{
 
 .Skills-Right{
     width: 50%;
-}
-
-.Skills-Right-Cart{
-    margin-bottom: 10px;
-    padding: 20px;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
-.Skills-Right-Cart span{
-    font-weight: 400;
-    font-size: 14px;
-    color: var(--a-color);
-    letter-spacing: 1.05px;
-
-}
-.Skills-Right-Cart div{
-    width: 100%;
-    height: 6px;
-    border-radius: 10px;
-    position: relative;
-    border: 1px solid var(--main);
-}
-.Skills-Right-Cart div::after{
-    content: '';
-    position: absolute;
-    height: 100%;
+.Skills-Right span{
     background: var(--main);
+    color: var(--light);
+    padding: 10px;
+    border-radius: 10px;
 }
-.Skildiv85::after{
-    width: 85%;
-}
-.Skildiv80::after{
-    width: 80%;
-}
-.Skildiv83::after{
-    width: 83%;
-}
-.Skildiv90::after{
-    width: 90%;
-}
-.Skildiv95::after{
-    width: 95%;
-}
-.Skills-Right-Cart div h3{
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--a-color);
-    letter-spacing: 1.05px;
-    position: absolute;
-    top: -25px;
-}
+
+
+
 
 @media screen and (max-width:840px) {
     .Skills{
@@ -717,6 +679,7 @@ section{
     
     .Skills-Right{
         width: 100%;
+        
     }
     
 }
